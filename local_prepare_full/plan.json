@@ -1,0 +1,161 @@
+{
+  "options": {
+    "repo": "\\data\\w00911743\\RevealLayer",
+    "models": "\\data\\w00911743\\pretrained_models\\reveallayer",
+    "flux": null,
+    "ckpt": null,
+    "decoder": null,
+    "image": "D:\\codes\\collage_outputs\\sdk-serial-20261008-r1\\tasks\\16-海边人像拼图\\prepared\\reference.png",
+    "analysis": "D:\\codes\\collage_outputs\\sdk-serial-20261008-r1\\tasks\\16-海边人像拼图\\analysis.json",
+    "output": "D:\\codes\\reveallayer_offline_demo\\local_prepare_full",
+    "mode": "full",
+    "ids": null,
+    "group_size": 4,
+    "context": 0.35,
+    "min_crop": 128,
+    "resolution": 1024,
+    "steps": 30,
+    "guidance": 1.0,
+    "seed": 43,
+    "device": 0,
+    "offload": false,
+    "prepare_only": true,
+    "check_only": false
+  },
+  "image_size": [
+    1080,
+    1435
+  ],
+  "targets": [
+    {
+      "id": "stripe_panel",
+      "label": "蓝白条纹装饰栏",
+      "bbox": [
+        84,
+        677,
+        539,
+        779
+      ]
+    },
+    {
+      "id": "drop_card",
+      "label": "雨滴说明卡",
+      "bbox": [
+        554,
+        453,
+        1014,
+        745
+      ]
+    },
+    {
+      "id": "starfish_pair",
+      "label": "顶部海星组合",
+      "bbox": [
+        51,
+        44,
+        270,
+        207
+      ]
+    },
+    {
+      "id": "doodle_spinner",
+      "label": "顶部蓝色放射花",
+      "bbox": [
+        258,
+        191,
+        294,
+        228
+      ]
+    },
+    {
+      "id": "doodle_starfish",
+      "label": "蓝色手绘海星",
+      "bbox": [
+        163,
+        249,
+        238,
+        326
+      ]
+    },
+    {
+      "id": "doodle_flower_left",
+      "label": "左侧蓝色放射花",
+      "bbox": [
+        97,
+        333,
+        166,
+        405
+      ]
+    },
+    {
+      "id": "doodle_flower_center",
+      "label": "中部蓝色放射花",
+      "bbox": [
+        217,
+        440,
+        266,
+        489
+      ]
+    },
+    {
+      "id": "doodle_flower_right",
+      "label": "右侧蓝色放射花",
+      "bbox": [
+        426,
+        523,
+        494,
+        595
+      ]
+    },
+    {
+      "id": "summer_title",
+      "label": "SUMMER TIME 标题",
+      "bbox": [
+        551,
+        91,
+        957,
+        141
+      ]
+    },
+    {
+      "id": "poem_block",
+      "label": "夏日手写诗句",
+      "bbox": [
+        529,
+        176,
+        975,
+        408
+      ]
+    },
+    {
+      "id": "speech_bubble",
+      "label": "表情对话气泡",
+      "bbox": [
+        35,
+        832,
+        246,
+        961
+      ]
+    },
+    {
+      "id": "white_drops",
+      "label": "右下白色雨滴组",
+      "bbox": [
+        569,
+        760,
+        985,
+        1032
+      ]
+    },
+    {
+      "id": "cursive_caption",
+      "label": "底部白色手写字",
+      "bbox": [
+        603,
+        1145,
+        978,
+        1408
+      ]
+    }
+  ]
+}

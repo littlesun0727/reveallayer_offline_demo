@@ -1,0 +1,84 @@
+{
+  "options": {
+    "repo": "\\data\\w00911743\\RevealLayer",
+    "models": "\\data\\w00911743\\pretrained_models\\reveallayer",
+    "flux": null,
+    "ckpt": null,
+    "decoder": null,
+    "image": "D:\\codes\\collage_outputs\\sdk-serial-20261008-r1\\tasks\\16-海边人像拼图\\prepared\\reference.png",
+    "analysis": "D:\\codes\\collage_outputs\\sdk-serial-20261008-r1\\tasks\\16-海边人像拼图\\analysis.json",
+    "output": "D:\\codes\\reveallayer_offline_demo\\local_prepare_smoke",
+    "mode": "crop",
+    "ids": [
+      "starfish_pair",
+      "doodle_spinner",
+      "speech_bubble"
+    ],
+    "group_size": 4,
+    "context": 0.35,
+    "bbox_margin": 8,
+    "min_crop": 128,
+    "resolution": 1024,
+    "steps": 30,
+    "guidance": 1.0,
+    "seed": 43,
+    "device": 0,
+    "offload": false,
+    "prepare_only": true,
+    "check_only": false
+  },
+  "image_size": [
+    1080,
+    1435
+  ],
+  "targets": [
+    {
+      "id": "starfish_pair",
+      "label": "顶部海星组合",
+      "bbox": [
+        43,
+        36,
+        278,
+        215
+      ],
+      "analysis_bbox": [
+        51,
+        44,
+        270,
+        207
+      ]
+    },
+    {
+      "id": "doodle_spinner",
+      "label": "顶部蓝色放射花",
+      "bbox": [
+        250,
+        183,
+        302,
+        236
+      ],
+      "analysis_bbox": [
+        258,
+        191,
+        294,
+        228
+      ]
+    },
+    {
+      "id": "speech_bubble",
+      "label": "表情对话气泡",
+      "bbox": [
+        27,
+        824,
+        254,
+        969
+      ],
+      "analysis_bbox": [
+        35,
+        832,
+        246,
+        961
+      ]
+    }
+  ]
+}
